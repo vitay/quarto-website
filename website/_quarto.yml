@@ -38,6 +38,7 @@ format:
     smooth-scroll: true
     html-math-method: katex
 
+
 bibliography: ../references.bib
 csl: ../frontiers.csl
 
