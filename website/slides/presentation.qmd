@@ -1,0 +1,23 @@
+---
+title: Website
+subtitle: Accompanying slides
+author: Julien Vitay
+institute: "*Lab for Artificial Intelligence, Chemnitz University of Technology*"
+
+---
+
+# Slides
+
+* Just regular Markdown slides.
+
+* Images have to be imported from `../img/`
+
+```md
+![](../img/tuc-new-large.png)
+```
+
+![](../img/tuc-new-large.png)
+
+* Citations [@Vitay2015] will be automatically added to the last slide.
+
+# References
