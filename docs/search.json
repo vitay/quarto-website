@@ -4,6 +4,6 @@
     "href": "slides/presentation.html",
     "title": "Website",
     "section": "",
-    "text": "References\n\nVitay, J., Dinkelbach, H. Ü., and Hamker, F. H. (2015). ANNarchy: A code generation approach to neural simulations on parallel hardware. Frontiers in Neuroinformatics 9. doi:10.3389/fninf.2015.00019."
+    "text": "Slides\n\nJust regular Markdown slides.\nImages have to be imported from ../img/\n\n![](../img/tuc-new-large.png)\n\n\n\n\n\n\nCitations (Vitay et al., 2015) will be automatically added to the last slide.\n\n\n\n\n\n\n\n\n\nReferences\n\nVitay, J., Dinkelbach, H. Ü., and Hamker, F. H. (2015). ANNarchy: A code generation approach to neural simulations on parallel hardware. Frontiers in Neuroinformatics 9. doi:10.3389/fninf.2015.00019."
   }
 ]

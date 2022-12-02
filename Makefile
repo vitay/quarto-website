@@ -1,8 +1,8 @@
 all: html
 
 html: 
-	quarto render website --to html
-	quarto render website/slides --to revealjs
+	quarto render src --to html
+	quarto render src/slides --to revealjs
 
 slides:
-	quarto render website/slides --to revealjs
+	quarto render src/slides --to revealjs

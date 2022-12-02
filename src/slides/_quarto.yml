@@ -3,7 +3,7 @@ project:
 
 format:
   revealjs: 
-    theme: [default, ../../slides.scss]
+    theme: [default, ../../assets/slides.scss]
     slide-number: true
     html-math-method: katex
     chalkboard: 
@@ -15,12 +15,13 @@ title-slide-attributes:
     data-background-opacity: "1"
     data-background-position: top
 
-bibliography: ../../references.bib
-csl: ../../frontiers.csl
+bibliography: ../references.bib
+csl: ../../assets/frontiers.csl
 
 highlight-style: github
 code-line-numbers: false
+callout-appearance: minimal
 
 filters:
-  - ../../center_images.lua
+  - ../../assets/center_images.lua
   - quarto
