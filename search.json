@@ -1,0 +1,13 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Website",
+    "section": "",
+    "text": "Content of the website.\nSlides are accessible from the navbar.",
+    "crumbs": [
+      "Slides",
+      "About"
+    ]
+  }
+]
