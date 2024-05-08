@@ -1,13 +1,12 @@
 project:
   type: website
-  output-dir: ../docs
+  output-dir: ./docs
 
 website:
   title: "Website"
 
   navbar:
     background: black
-    #logo: img/logowhite.png
     pinned: true
     right:
       - text: "Slides"
@@ -25,27 +24,24 @@ website:
         file: index.qmd
       - section: "Tutorial"
         contents:
-        - Test.qmd
+        - src/Test.qmd
 
   page-footer:
     center: |
-      Copyright 2022 - Julien Vitay <julien.vitay@informatik.tu-chemnitz.de> - Chemnitz University of Technology
+      Copyright 2024 - [Julien Vitay](mailto:julien.vitay@informatik.tu-chemnitz.de) - Chemnitz University of Technology
 
 format:
   html:
-    theme: [sandstone, ../assets/webpage.scss]
+    theme: [sandstone, "assets/webpage.scss"]
     page-layout: full
     smooth-scroll: true
     html-math-method: katex
 
 
 bibliography: references.bib
-csl: ../assets/frontiers.csl
+csl: assets/frontiers.csl
 
 highlight-style: github
 code-line-numbers: false
 
-filters:
-  - ../assets/center_images.lua
-  - quarto
 

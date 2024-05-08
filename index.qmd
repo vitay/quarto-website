@@ -1,0 +1,7 @@
+---
+title: Website
+---
+
+Content of the website.
+
+Slides are accessible from the navbar.
